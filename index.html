@@ -16,11 +16,11 @@
      <aside class="">
         <div class="side-menu">
           <div id="side-menu1"> <h1>BibleGateway</h1></div>
-       <div><a href=""><h3>READ <br> THE BIBLE</h3></a></div>
-       <div> <a href="" class="side3"><p>STUDY<br>TOOLS</p></a></div>
-        <div><a href="" class="side4"><p>BIBLE GATEWAY<br> PLUS</p></a></div>
-        <div><a href="" class="side5"><p>EXPLORE <br> MORE</p></a></div>
-        <div><a href=""><p>STORE</p></a></div>
+       <div class="book"> <div class="book-1"><i class="fa-solid fa-book"></i></div> <div><a href=""><h3>READ <br> THE BIBLE</h3></a></div> </div>
+         <div class="touch"><div class="touch-1"><i class="fa-solid fa-lightbulb"></i></div> <div> <a href="" class="side3"><p>STUDY<br>TOOLS</p></a></div></div>
+         <div class="cross"><div class="cross-1"><i class="fa-solid fa-cross"></i></div> <div><a href="" class="side4"><p>BIBLE GATEWAY<br> PLUS</p></a></div></div>
+        <div class="compass"><div class="compass-1"><i class="fa-solid fa-compass"></i></div> <div><a href="" class="side5"><p>EXPLORE <br> MORE</p></a></div></div>
+        <div class="house"><div class="house-1"><i class="fa-solid fa-house"></i></div> <div><a href=""><p>STORE</p></a></div></div>
         </div>
         
     </aside>
@@ -32,13 +32,18 @@
            </i><div class="LOG"> LOG IN/SIGN UP</div>
             <br>
            <div class="opt">
-             <input type="text" placeholder="enter passage,key or word" id="opt-input">
+            <div id="opt">
+                 <div>
+                <input type="text" placeholder="enter passage,key or word" id="opt-input">
             
             <select id="opt-input2">
                 <option value="">king james version</option>
                 <option value="">21st century king james version</option>
                 <option value="">amplified bible</option>
             </select>
+             </div>
+            <div id="search-bar"><i class="fa-solid fa-magnifying-glass"></i></div>
+            </div>
            </div>
            
             <div class="hed">
@@ -78,9 +83,47 @@
 
         <section id="bible-recommendation">
             <div class="B">
-                <p>Bible Gateway Recommends</p>
+                <center>BIBLE GETWAY RECCOMENTS</center>
             </div>
         </section>
+        <section class="pictures">
+           <div class="button">
+             <div>
+                <div>
+                <img src="./asset/png.webp" alt="" id="bible-img">
+            </div>
+            <div>
+                KJV, Deluxe Reference Bible, Super <br> Giant Print, Red Letter Edition,<br> Comfort Print
+            </div>
+            </div> <br> <br>
+            <div class="buy"><button><p>Buy Now</p></button></div>
+           </div>
+
+            <div class="button">
+                <div>
+                <div>
+                    <img src="./asset/2.webp" alt="" id="bible-2">
+                </div>
+                <div>
+                    <p>KJV, Gift and Award Bible, Red Letter Edition, Comfort Print Retail: $9.99</p>
+                </div>
+            </div> 
+                 <div class="buy"><button><p>Buy Now</p></button></div>
+            </div>
+
+            <div class="button">
+                <div>
+                <div>
+                 <img src="./asset/3.webp" alt="" id="bible-3">
+                </div>
+                <div>
+                    KJV, Amplified, Parallel Bible, Large <br> Print, Red Letter Edition: Two Bible <br> Versions Together for Study and Comparison
+                </div>
+            </div><br>
+                 <div class="buy"><button><p>Buy Now</p></button></div>
+            </div>
+        </section>
+        <div class="L"><a href="">View more titles</a></div>
 
     </main>
     <footer>

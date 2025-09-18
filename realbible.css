@@ -121,7 +121,7 @@ border: none;
 main{
     margin-left: 1.5rem;
     background-color: white;
-    min-height: 100vh;
+    height: 60vh;
     /* padding-left: 5%; */
     margin-right:1.5rem ;
     padding-right: 2rem;
@@ -145,13 +145,121 @@ main p{
 margin-left: 70%;
 }
 .B{
-    margin-top: 15% ;
+    margin-top: 5% ;
     /* margin-left: 35%; */
-    background-color: blue;
-    height: 100vh;
+    height: 20vh;
     margin-right: 35%;
+    padding-left: 30%;
+    font-size: large;
+    font-weight: 500;
+    letter-spacing:50%;
+    /* text-align: center; */
 }
 #bible-recommendation{
     width: 100%;
     background: white;
+}
+.book{
+    display: flex;
+    gap: 5%;
+}
+.book-1{
+    align-content: center;
+}
+.cross{
+    display: flex;
+    gap: 5%;
+}
+.cross-1{
+    align-content: center;
+}
+.compass{
+    display: flex;
+    gap: 5%;
+}
+.compass-1{
+    align-content: center;
+}
+.house{
+    display: flex;
+    gap: 5%;
+}
+.house-1{
+    align-content: center;
+}
+.touch{
+    display: flex;
+    gap: 5%;
+}
+.touch-1{
+ align-content: center;
+}
+.touch:hover{
+background-color: red;
+
+}
+.book:hover{
+background-color: red;
+
+}
+.house:hover{
+background-color: red;
+
+}
+.cross:hover{
+background-color: red;
+
+}
+.compass:hover{
+background-color: red;
+
+}
+#opt{
+    display: flex;
+}
+.search-bar{
+justify-items: center;
+}
+#bible-img{
+    width:50%;
+}
+#bible-2{
+    width: 40%;
+}
+#bible-3{
+    width: 60%;
+}
+.pictures{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    height: 100%;
+    width: 100%;
+}
+.buy{
+   margin-top: 20%; /* padding-left: 10%; */
+    /* border-width: 5%; */
+}
+.buy button{
+    /* width: 120px;
+    height: 50px; */
+    padding: 10px 12px;
+    border-radius: 8px;
+    background-color: #1848d7;
+    border: 1px solid transparent;
+    box-shadow: 0.4px 0.4px 0.4px 0.4px rgb(24, 72, 215, 0.5);
+    
+}
+.buy button p{
+    color: #ffffff;
+}
+.L {
+padding-left: 40%;
+    background-color: #ffffff;
+    margin-top: %;
+
+}
+.button{
+    width:25%;
+    /* align-items: center; */
 }
