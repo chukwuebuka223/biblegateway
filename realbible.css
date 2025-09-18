@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{text-decoration: none;
+
+white-space: wrap;
+
+}
+
+.first {
+    display: flex;flex-direction: row;
+}
+aside{
+    width: 190px;
+}
+.side-menu {
+    /* display: block; */
+    /* align-items: center; */
+    /* justify-items: center; */
+    /* justify-content: center; */
+    /* margin: auto; */
+    min-height: 200vh;
+    background-color:#952004;
+    color: white;  
+}
+.side-menu a{
+    font-size: 12px;
+    padding: 1rem;
+    color: white;
+
+}
+#side-menu{
+padding-top: 20%;
+color: white;
+
+
+}
+#side-menu1 h1{
+    font-size: 14px;
+    border: 2px solid white;
+    padding: 1rem;
+}
+#side-menu1 :hover{
+    background: black;
+}
+
+body{
+    background-color: rgb(246, 240, 240);
+}
+
+
+
+hr{
+    border: 1.5px solid #952004;
+    /* color: #952004; */
+    width: 80vw;
+    /* align-items: center */
+    margin: auto;
+    /* justify-items: center */
+}
+.hed{
+    /* text-align: center; */
+    border: ;
+    display: 
+    justify-content: space-between;
+}
+
+
+.LOG{
+    text-align: right;
+    padding: 10px;
+    color: red;
+}
+.opt {
+    display: flex;
+    width: 100%;
+    /* text-align:center ; */
+    justify-content: center;
+    gap: 50px;
+    border: ;
+
+}
+#opt-input{
+    padding: 7px 200px;
+}
+#opt-input2{
+    padding: 7px 100px;
+}
+nav{
+    display: flex;flex-direction:row;
+    gap: 10%;
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+    color: black;
+}
+nav:hover{
+    font-size: larger;
+    color: red;
+    
+}
+.icon{
+    position: absolute;
+    top: 1.6%;
+    right: 11%;
+}
+.hed-1{
+display: flex;
+padding-left: 1.5rem;
+color: gray;
+padding-top: 0.5%;
+}
+.hed-2{
+display: flex;
+margin-left: 91%;
+padding-top: -10rem;
+color: gray;
+border: none;
+
+}
+main{
+    margin-left: 1.5rem;
+    background-color: white;
+    min-height: 100vh;
+    /* padding-left: 5%; */
+    margin-right:1.5rem ;
+    padding-right: 2rem;
+    
+}
+.main{
+/* text-align: center; */
+flex-wrap: wrap;
+font-size: 17px;
+}
+main p{
+ font-weight: bold;  
+ font-size: 21px; 
+}
+.last{
+    display: flex;
+    margin: 10% 10% 0% 50%;
+
+}
+.list{
+margin-left: 70%;
+}
+.B{
+    margin-top: 15% ;
+    /* margin-left: 35%; */
+    background-color: blue;
+    height: 100vh;
+    margin-right: 35%;
+}
+#bible-recommendation{
+    width: 100%;
+    background: white;
+}
