@@ -53,8 +53,8 @@ body{
 
 hr{
     border: 1.5px solid #952004;
-    /* color: #952004; */
-    width: 80vw;
+    /* color: #952004; 
+    width: 80vw; */
     /* align-items: center */
     margin: auto;
     /* justify-items: center */
@@ -77,15 +77,26 @@ hr{
     width: 100%;
     /* text-align:center ; */
     justify-content: center;
-    gap: 50px;
-    border: ;
+    gap: 0.5em;
+    
 
 }
 #opt-input{
-    padding: 7px 200px;
+    padding: 0.5rem ;
+    width: 40%;
 }
 #opt-input2{
     padding: 7px 100px;
+    width: 40%;
+}
+#search-bar{   
+display: flex;
+justify-content: center;
+align-items: center;
+background: red;
+width: 7%;
+border-radius: 5px;
+color: white;
 }
 nav{
     display: flex;flex-direction:row;
@@ -214,12 +225,6 @@ background-color: red;
 background-color: red;
 
 }
-#opt{
-    display: flex;
-}
-.search-bar{
-justify-items: center;
-}
 #bible-img{
     width:50%;
 }
@@ -262,4 +267,9 @@ padding-left: 40%;
 .button{
     width:25%;
     /* align-items: center; */
+}
+@media (max-width:650px) {
+    body{
+        background-color: #1848d7;
+    }
 }
